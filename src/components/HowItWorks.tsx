@@ -63,7 +63,7 @@ export default function HowItWorks({ items }: HowItWorksProps) {
             slidesPerView={1}
             className="pb-12"
           >
-            {items.map((item, index) => (
+            {items.map((item) => (
               <SwiperSlide key={item.id}>
                 <div className="bg-white rounded-xl p-10 flex flex-col items-center mx-4 shadow-2xl">
                   <img
