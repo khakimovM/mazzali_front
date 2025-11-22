@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@0no-co/graphql.web@^1.0.13":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@0no-co/graphql.web/-/graphql.web-1.2.0.tgz"
-  integrity sha512-/1iHy9TTr63gE1YcR5idjx8UREz1s0kFhydf3bBLCXyqjhkIc6igAzTOx3zPifCwFR87tsh/4Pa9cNts6d2otw==
-
 "@apollo/client@^4.0.9":
   version "4.0.9"
   resolved "https://registry.yarnpkg.com/@apollo/client/-/client-4.0.9.tgz#fdc0388f73a1640f3da30a8791e448b96ad0b49a"
@@ -900,30 +895,6 @@
   dependencies:
     "@typescript-eslint/types" "8.47.0"
     eslint-visitor-keys "^4.2.1"
-
-"@urql/core@^6.0.0", "@urql/core@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/@urql/core/-/core-6.0.1.tgz"
-  integrity sha512-FZDiQk6jxbj5hixf2rEPv0jI+IZz0EqqGW8mJBEug68/zHTtT+f34guZDmyjJZyiWbj0vL165LoMr/TkeDHaug==
-  dependencies:
-    "@0no-co/graphql.web" "^1.0.13"
-    wonka "^6.3.2"
-
-"@urql/devtools@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/@urql/devtools/-/devtools-2.0.3.tgz"
-  integrity sha512-TktPLiBS9LcBPHD6qcnb8wqOVcg3Bx0iCtvQ80uPpfofwwBGJmqnQTjUdEFU6kwaLOFZULQ9+Uo4831G823mQw==
-  dependencies:
-    wonka ">= 4.0.9"
-
-"@urql/exchange-graphcache@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.npmjs.org/@urql/exchange-graphcache/-/exchange-graphcache-8.1.0.tgz"
-  integrity sha512-KxdDFcGAWhYOkpCz/NLNHb8SaWSxE2G1iv+jlFty2f/ZlCkD+FjtzwQuieGl7fk1MVR8DG1zLmxGNlwfCNksfQ==
-  dependencies:
-    "@0no-co/graphql.web" "^1.0.13"
-    "@urql/core" "^6.0.0"
-    wonka "^6.3.2"
 
 "@vitejs/plugin-react@^5.1.0":
   version "5.1.1"
@@ -2035,6 +2006,13 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+rxjs@^7.8.2:
+  version "7.8.2"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.2.tgz#955bc473ed8af11a002a2be52071bf475638607b"
+  integrity sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==
+  dependencies:
+    tslib "^2.1.0"
+
 scheduler@^0.27.0:
   version "0.27.0"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz"
@@ -2166,14 +2144,6 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-urql@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/urql/-/urql-5.0.1.tgz"
-  integrity sha512-r58gYlWvCTC19QvkTaARaCLV9/bp870byH/qbLaw3S7f8i/bC6x2Szub8RVXptiMxWmqq5dyVBjUL9G+xPEuqg==
-  dependencies:
-    "@urql/core" "^6.0.1"
-    wonka "^6.3.2"
-
 vite@^7.2.2:
   version "7.2.2"
   resolved "https://registry.npmjs.org/vite/-/vite-7.2.2.tgz"
@@ -2194,11 +2164,6 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
-
-"wonka@>= 4.0.9", wonka@^6.3.2:
-  version "6.3.5"
-  resolved "https://registry.npmjs.org/wonka/-/wonka-6.3.5.tgz"
-  integrity sha512-SSil+ecw6B4/Dm7Pf2sAshKQ5hWFvfyGlfPbEd6A14dOH6VDjrmbY86u6nZvy9omGwwIPFR8V41+of1EezgoUw==
 
 word-wrap@^1.2.5:
   version "1.2.5"

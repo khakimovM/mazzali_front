@@ -15,8 +15,6 @@
     "@tanstack/react-query": "^5.90.10",
     "@types/aos": "^3.0.7",
     "@types/js-cookie": "^3.0.6",
-    "@urql/devtools": "^2.0.3",
-    "@urql/exchange-graphcache": "^8.1.0",
     "aos": "^2.3.4",
     "axios": "^1.13.2",
     "graphql": "^16.12.0",
@@ -24,9 +22,9 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
+    "rxjs": "^7.8.2",
     "swiper": "^12.0.3",
     "tailwindcss": "^4.1.17",
-    "urql": "^5.0.1",
     "zustand": "^5.0.8"
   },
   "devDependencies": {
