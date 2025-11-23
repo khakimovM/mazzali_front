@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/strapi/(.*)",
+      "destination": "http://13.49.44.223:1337/$1"
+    },
+    {
+      "source": "/nest-api/(.*)",
+      "destination": "http://16.171.146.39:4000/api/$1"
+    },
+    {
+      "source": "/nest-api",
+      "destination": "http://16.171.146.39:4000/api"
+    }
+  ]
+}
